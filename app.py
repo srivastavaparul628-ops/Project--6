@@ -28,7 +28,7 @@ st.markdown(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("rossmann_model.pkl")
+    return joblib.load("rossmann_rf_model.pkl")
 
 model = load_model()
 
